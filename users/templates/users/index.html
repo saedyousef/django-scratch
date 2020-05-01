@@ -4,9 +4,8 @@
     Index Page
 {% endblock %}
 {% block body %}
-    <h1>Hello, this is index Page</h1>
+    <h1>Hello, You're not Logged in</h1>
     <ul>
-        <li> Currently logged in as: {{ user.username }}</li>
-        <li><a href="{% url 'logout' %}"> Logout</a></li>
+        <li><a href="{% url 'login' %}"> Login</a></li>
     </ul>
 {% endblock %}
