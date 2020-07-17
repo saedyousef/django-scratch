@@ -1,1 +1,1 @@
-# cs50-django
+# django(Scratch)
